@@ -1,0 +1,53 @@
+#modelDelete {
+	width:100%;
+	height:100%;
+	background:rgb(0,0,0,0.7);
+	position:absolute;
+	top:0;
+	left:0;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.popupDelete {
+	width:320px;
+	padding: 20px 20px;
+	background:white;
+	border-radius:2px;
+	position:relative;
+	display:flex;
+	text-align:center;
+	flex-direction:column;	
+}
+
+.options {
+	display:flex;
+	justify-content:space-around;
+}
+
+.title {
+	font-size:20px;
+}
+
+.options button {
+	width:100px;
+	margin:20px 0 0 0;
+	padding:10px;
+	border:0;
+	font-family:sans-serif;
+	font-size:20px;
+	color:white;
+	cursor: pointer;
+	border-radius:2px;
+}
+
+.options button:nth-child(1) {
+	background:#CE2626;
+	
+}
+
+.options button:nth-child(2) {
+	background:#1D79D7;
+
+}

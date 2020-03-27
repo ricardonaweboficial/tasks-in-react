@@ -1,0 +1,84 @@
+main {
+	flex:1;
+	
+}
+
+main ul {
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	gap:20px;
+	list-style:none;
+}
+
+@media (max-width:650px) {
+	main ul {
+		grid-template-columns:1fr;
+	}
+}
+
+li.task-item {
+	background:#fff;
+	box-shadow:0 0 14px 0 rgba(0, 0, 0, 0.2);
+	border-radius:2px;
+	padding:5px 14px;
+}
+
+li.task-item header {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	align-items: center;
+	padding:2px;
+}
+
+
+li.task-item header strong {
+	font-size:20px;
+	color: #6E6E6E;
+}
+
+li.task-item p {
+	border: 1px solid #D8D8D8;
+	padding:5px;
+	border-radius:2px;
+	margin:5px 0;
+	font-size:17.5px;
+}
+
+li.task-item .name-a-date {
+	margin:10px 0 4px 0;
+	padding:6px 5px;
+	border-radius:2px;
+	background:#eee;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	color:#aaa;
+	border-bottom:1px solid #929292;
+}
+
+li header .iconsMethod {
+	background:#eee;
+	padding-top:2px;
+	border-radius:2px;
+}
+
+li header .iconsMethod .icons{
+	font-size:20px;
+	margin:0 4px;
+	cursor:pointer;
+}
+
+li header .icons:nth-child(1) {
+	color:red;
+}
+
+li header .icons:nth-child(2) {
+	color:#7d40e7;
+}
+
+
+
+
+
+
